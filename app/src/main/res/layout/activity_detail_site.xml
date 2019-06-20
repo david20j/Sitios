@@ -40,7 +40,7 @@
                         android:id="@+id/et_nombre_details"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/artist.hint.nombre"
+                        android:hint="@string/hint_nombre"
                         android:inputType="textPersonName|textCapWords"
                         android:maxLength="@integer/nombre.maxLength"
                         android:enabled="false" android:textColor="@color/colorPrimaryText"/>
@@ -52,7 +52,7 @@
                             android:id="@+id/et_ciudad_details"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="@string/artist.hint.ciudad"
+                            android:hint="@string/hint_ciudad"
                             android:inputType="textPersonName|textCapWords"
                             android:maxLength="@integer/nombre.maxLength"
                             android:enabled="false" android:textColor="@color/colorPrimaryText"/>
@@ -64,7 +64,7 @@
                         android:id="@+id/et_descripcion_details"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/artist.hint.descripcion"
+                        android:hint="@string/hint_descripcion"
                         android:inputType="textMultiLine"
                         android:gravity="top|start"
                         android:maxLength="@integer/descripcion.maxLength"

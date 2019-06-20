@@ -22,11 +22,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="artist.hint.nombre">nombre</string>
-    <string name="artist.hint.descripcion">Descripcion</string>
-    <string name="artist.hint.ciudad">ciudad</string>
     <string name="title_activity_maps">Map</string>
 
     <string name="label_lugar">Lugares creados:</string>
     <string name="label_lugar_no_name">no name</string>
+    <string name="hint_nombre">nombre</string>
+    <string name="hint_ciudad">ciudad</string>
+    <string name="hint_descripcion">descripcion</string>
 </resources>
