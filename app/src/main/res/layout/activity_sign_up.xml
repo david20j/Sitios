@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:fillViewport="true"
+        tools:context=".activities.Login.LoginActivity">
+
+    <android.support.constraint.ConstraintLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true">
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_edit_text_height"
+                android:id="@+id/etEmailSignUp"
+                android:inputType="textEmailAddress"
+                android:hint="@string/login_email"
+                android:textSize="@dimen/login_text_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_rounder"
+                android:paddingLeft="@dimen/login_edit_text_space"
+                android:paddingRight="@dimen/login_edit_text_space"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/etPasswordSignUp"
+                app:layout_constraintHorizontal_bias="0.0"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_edit_text_height"
+                android:id="@+id/etPasswordSignUp"
+                android:inputType="textPassword"
+                android:hint="@string/login_password"
+                android:textSize="@dimen/login_text_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_rounder"
+                android:paddingLeft="@dimen/login_edit_text_space"
+                android:paddingRight="@dimen/login_edit_text_space"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/etConfirmPasswordSignUp"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_edit_text_height"
+                android:id="@+id/etConfirmPasswordSignUp"
+                android:inputType="textPassword"
+                android:hint="@string/login_confirm_password"
+                android:textSize="@dimen/login_text_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/edittext_rounder"
+                android:paddingLeft="@dimen/login_edit_text_space"
+                android:paddingRight="@dimen/login_edit_text_space"
+                app:layout_constraintHorizontal_bias="1.0" android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnCreateAccount"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_button_xl_height"
+                android:id="@+id/btnCreateAccount"
+                android:text="@string/login_sign_up"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="@dimen/login_text_xl_size"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/button_ripple_bg"
+                android:layout_marginBottom="110dp"
+                app:layout_constraintBottom_toTopOf="@+id/btnGoLogin"/>
+
+
+        <Button
+                android:id="@+id/btnGoLogin"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/login_button_xl_height"
+                android:text="@string/login_go_login"
+                android:textColor="@color/colorSecondaryText"
+                android:textSize="@dimen/login_text_size"
+                android:background="@drawable/button_ripple"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginBottom="4dp"
+        />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

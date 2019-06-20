@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "771674584717",
+    "firebase_url": "https://proyectositiosjunio.firebaseio.com",
+    "project_id": "proyectositiosjunio",
+    "storage_bucket": "proyectositiosjunio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771674584717:android:43f253663191cb10",
+        "android_client_info": {
+          "package_name": "com.example.sitiosjunio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771674584717-4in2m9db5b20l1g8ii8a4fne5gtd39ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sitiosjunio",
+            "certificate_hash": "077037fde19b4a51aaa29d1db5b54c42f8cb37f7"
+          }
+        },
+        {
+          "client_id": "771674584717-ija52h8hddv35c8t9i8k8rgmbumh2kml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-G1oGtPVvjLitvv8E259CGrm6P2p5TOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771674584717-ija52h8hddv35c8t9i8k8rgmbumh2kml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

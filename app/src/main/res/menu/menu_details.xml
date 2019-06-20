@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_editar"
+        android:title="edit"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_edit"/>
+    <item
+            android:id="@+id/menu_borrar"
+            android:title="edit"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_delete"/>
+    <item
+            android:id="@+id/menu_goto"
+            android:title="Go to"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_navigation"/>
+</menu>

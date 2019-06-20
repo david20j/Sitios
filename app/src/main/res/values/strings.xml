@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Sitios</string>
+
+    <!-- Login View -->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_confirm_password">Confirm Password</string>
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_reset_password">Reset my password</string>
+    <string name="login_sign_in_google">Sign In with Google</string>
+    <string name="login_forgot_password">I have forgotten my password</string>
+    <string name="login_create_account">Create a new account</string>
+    <string name="login_go_login">Go back to Login</string>
+
+    <string name="signin_email_send">An email has been sent to you. Please, confirm before sign in</string>
+
+    <!-- Bottom Navigation Menu -->
+    <string name="navigation_bottom_sitios">Sitios</string>
+    <string name="navigation_bottom_favoritos">Mis Sitios</string>
+    <string name="navigation_bottom_perfil">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="artist.hint.nombre">nombre</string>
+    <string name="artist.hint.descripcion">Descripcion</string>
+    <string name="artist.hint.ciudad">ciudad</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="label_lugar">Lugares creados:</string>
+    <string name="label_lugar_no_name">no name</string>
+</resources>
